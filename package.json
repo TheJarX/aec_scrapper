@@ -1,0 +1,20 @@
+{
+  "name": "aec_scrapper",
+  "version": "0.0.1",
+  "description": "Script that find and collects links to resources from aprendoencasa.pe and the downloads it",
+  "main": "index.js",
+  "repository": "https://github.com/TheJarX/aec_scrapper",
+  "author": "Gerard Altamirano <hello@itsgerard.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodejs-file-downloader": "^4.7.3",
+    "puppeteer": "^10.2.0",
+    "temp": "^0.9.4"
+  }
+}
