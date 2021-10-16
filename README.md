@@ -13,7 +13,7 @@ const results = init(url) // this will return a json with all the resources data
 
 ## Results format
 
-The results will come from the [findResources]() function in this format:
+The results will come from the [findResources](https://github.com/TheJarX/aec_scrapper/blob/master/src/find-resources/index.js#L16-L31) function in this format:
 ```js
 Resource = {
   link: string,
